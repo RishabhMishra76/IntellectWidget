@@ -1,0 +1,19 @@
+.outerDashedCircle {
+  border: 2px dashed #ffffff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.svgCircle {
+  fill: none;
+  stroke: #333;
+  stroke-width: 6;
+  stroke-dasharray: 22.68px;
+  stroke-dashoffset: 10px;
+  stroke-linecap: round;
+  animation: circleAn 1s linear infinite;
+  -webkit-transition: ease 250ms;
+  -moz-transition: ease 250ms;
+  transition: ease 250ms;
+}
