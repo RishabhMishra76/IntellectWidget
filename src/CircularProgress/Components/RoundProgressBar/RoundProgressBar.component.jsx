@@ -13,7 +13,7 @@ function RoundProgressBar(props) {
       <svg width={props.size} height={props.size} viewBox={viewBox}>
         <circle
           fill={"#466D7C"}
-          stroke={"#325D6E"}
+          // stroke={"#325D6E"}
           cx={props.size / 2}
           cy={props.size / 2}
           r={radius}
@@ -50,7 +50,7 @@ function RoundProgressBar(props) {
           dy="0.7rem"
           x="50%"
           y="50%"
-          text-anchor="middle"
+          textAnchor="middle"
           fill={"#FFFFFF"}
           style={{
             fontSize: "2.5rem",

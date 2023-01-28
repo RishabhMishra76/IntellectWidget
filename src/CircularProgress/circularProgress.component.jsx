@@ -30,7 +30,6 @@ function CircularProgress() {
               value={percentage}
               stroke={"#b9332f"}
               max={10}
-              text="UNAVAILABLE"
               size={200}
               strokeWidth={5}
             />
